@@ -85,7 +85,7 @@ jobs:
     - if: matrix.build-mode == 'manual'
       shell: bash
       run: |
-        gcc test.c
+        gcc class16.c
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v3
